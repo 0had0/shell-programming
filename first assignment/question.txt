@@ -1,0 +1,15 @@
+1- Counts in the current directory, the files with extension ".c" and files with extension ".h"
+
+2- prints the counts
+
+3- set all files' protection mode to r--r--rw- using the command chmod.
+
+4- creates two subdirectories "src" and "inc"
+
+5- moves the files with extension ".c" to subdirectory "src".
+
+6- moves the files with extension ".h" to subdirectory "inc".
+
+7- In the "inc" directory, if any file has a name that starts with "h_", rename the file by removing the "h_" from the name.
+
+8- In the "src" directory, if any file contains the word "removeme", delete the file.
