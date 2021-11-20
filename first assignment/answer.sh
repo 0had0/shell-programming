@@ -12,7 +12,7 @@ echo "files that match *.c $(ls *.c | wc -l)"
 
 # or
 
-find . \( -name "*.c" -or -name "*.h" \) -exec chmod 644 {} \;
+find . \( -name "*.c" -or -name "*.h" \) -exec chmod 446 {} \;
 
 #4
 
@@ -29,7 +29,11 @@ mv *.h inc
 
 #7
 
-rename h_ "" inc/*.h
+# ArchLinux
+# rename h_ "" inc/*.h
+
+#Ubuntu
+rename 's/h_//' inc/h_*
 
 #8
 
